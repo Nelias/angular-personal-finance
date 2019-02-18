@@ -1,0 +1,5 @@
+<div>
+  <app-account [accounts]="_accounts" [selected]="_selected" (delete)="removeAcc($event)"></app-account>
+  <br>
+  <app-account-form (created)="createAcc($event)"></app-account-form>
+</div>
